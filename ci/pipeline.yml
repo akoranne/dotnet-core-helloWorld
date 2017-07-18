@@ -1,14 +1,35 @@
+# pipeline for dotnet-core-helloWorld app.
+
+groups:
+- name: dotnet-core-hello-world
+  jobs:
+  - build-service
+
 resources:
-- name: dotnet-core-helloWorld
+- name: service-repo
   type: git
   source:
     uri: https://github.com/akoranne/dotnet-core-helloWorld
     branch: master
 
+- name: deploy-dev-env
+  type: cf
+  source:
+    api:             {{pws-api}}
+    username:        {{deploy-username}}
+    password:        {{deploy-password}}
+    skip_cert_check: true
+    organization:    {{pws-organization}}
+    space:           {{pws-staging-space}}
+
 jobs:
-- name: hello-world-app
+- name: build-service
   plan:
-  - get: dotnet-core-helloWorld
+  - get: service-repo
     trigger: true
   - task: tests
     file: dotnet-core-helloWorld/ci/tasks/build.yml
+  - put: deploy-dev-env
+    params:
+      manifest: manifest.yml
+      path: .
