@@ -1,0 +1,14 @@
+resources:
+- name: HelloWorldDotNetCore
+  type: git
+  source:
+    uri: https://github.com/akoranne/HelloWorldDotNetCore
+    branch: master
+
+jobs:
+- name: hello-world-app
+  plan:
+  - get: HelloWorldDotNetCore
+    trigger: true
+  - task: tests
+    file: HelloWorldDotNetCore/ci/tasks/build.yml

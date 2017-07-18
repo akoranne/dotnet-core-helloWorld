@@ -1,0 +1,7 @@
+---
+applications:
+  - name: dotnet-core-helloWorld
+    disk_quota: 1536M
+    random-route: false
+    env:
+      CACHE_NUGET_PACKAGES: false
