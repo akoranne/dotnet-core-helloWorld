@@ -6,8 +6,8 @@ image_resource:
     repository: microsoft/dotnet
 
 inputs:
-- name: HelloWorldDotNetCore
+- name: dotnet-core-helloWorld
 
 run:
   path: sh
-  args: ["HelloWorldDotNetCore/ci/tasks/build.sh"]
+  args: ["dotnet-core-helloWorld/ci/tasks/build.sh"]

@@ -1,5 +1,5 @@
 #!/bin/bash
-cd HelloWorldDotNetCore
+cd dotnet-core-helloWorld
 
 dotnet restore
 dotnet build
