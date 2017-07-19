@@ -11,4 +11,4 @@ dotnet publish -c Release -o ./publish
 
 echo "copying files to ../build-output"
 cp manifest.yml ../build-output
-cp ./publish/* ../build-output
+cp -R ./publish/* ../build-output
