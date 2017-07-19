@@ -1,8 +1,8 @@
-# .Net Core Hello World (f-sharp)
+# .Net Core Hello World 
 
 This project is a sample .Net Core app. It highlights the following...
 
-* f# example
+* c# example
 * manifest file to deploy to pcf
 * concourse ci/cd pipeline.
 
