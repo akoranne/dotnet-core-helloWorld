@@ -2,5 +2,5 @@
 cd service-repo
 
 dotnet restore
-dotnet publish -c release
-cp manifest.yml ./bin/?elease/netcoreapp?.?/publish/
+dotnet publish -c Release
+cp manifest.yml ./bin/Release/netcoreapp1.1/publish/
