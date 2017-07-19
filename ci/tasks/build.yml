@@ -9,7 +9,7 @@ inputs:
   - name: service-repo
 
 outputs:
-  - name: publish
+  - name: build-output
 
 run:
   path: sh
