@@ -1,6 +1,9 @@
 #!/bin/bash
 cd service-repo
 
+echo I am in `pwd`
+
 dotnet restore
-dotnet publish -c Release
-cp "manifest.yml" "bin/Release/netcoreapp*/publish/"
+dotnet publish -c Release -o ./publish
+
+cp manifest.yml ./publish/
