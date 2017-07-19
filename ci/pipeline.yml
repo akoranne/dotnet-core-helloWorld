@@ -32,4 +32,4 @@ jobs:
   - put: deploy-dev-env
     params:
       manifest: service-repo/manifest.yml
-      path: service-repo
+      path: service-repo/bin/?elease/netcoreapp?.?/publish/

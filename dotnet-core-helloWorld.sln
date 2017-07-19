@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 15.00
 # Visual Studio 2017
-Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "dotnet-core-helloWorld", "dotnet-core-helloWorld.fsproj", "{E9882090-06B8-4E7A-9940-166B277B4C44}"
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "dotnet-core-helloWorld", "dotnet-core-helloWorld.csproj", "{E9882090-06B8-4E7A-9940-166B277B4C44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
