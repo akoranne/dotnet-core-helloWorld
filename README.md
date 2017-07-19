@@ -57,7 +57,7 @@ The CI/CD pipeline will build the and push the app to local pcf-dev instance.
 Setup the concourse pipeline as follows
 
   ```
-     $ fly -t local set-pipeline -p dotnet-core-helloWorld -c ci/pipeline.yml
+     $ fly -t local set-pipeline -p dotnet-core-helloWorld -c ci/pipeline.yml -l ci/credentials-local.yml
      
      $ fly -t local unpause-pipeline -p dotnet-core-helloWorld
      
