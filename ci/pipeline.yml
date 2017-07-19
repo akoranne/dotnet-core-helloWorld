@@ -28,7 +28,7 @@ jobs:
   - get: service-repo
     trigger: true
   - task: tests
-    file: dotnet-core-helloWorld/ci/tasks/build.yml
+    file: service-repo/ci/tasks/build.yml
   - put: deploy-dev-env
     params:
       manifest: manifest.yml
