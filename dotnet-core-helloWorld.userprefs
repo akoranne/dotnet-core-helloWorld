@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{E9882090-06B8-4E7A-9940-166B277B4C44}|Default">
   <MonoDevelop.Ide.ItemProperties.dotnet-core-helloWorld PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ci/tasks/build.yml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ci/credentials-local.yml">
     <Files>
-      <File FileName="ci/pipeline.yml" Line="31" Column="23" />
+      <File FileName="ci/pipeline.yml" Line="35" Column="25" />
       <File FileName="ci/tasks/build.yml" Line="7" Column="5" />
+      <File FileName="ci/credentials-local.yml" Line="6" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
