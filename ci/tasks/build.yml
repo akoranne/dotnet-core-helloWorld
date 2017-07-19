@@ -6,7 +6,10 @@ image_resource:
     repository: microsoft/dotnet
 
 inputs:
-- name: service-repo
+  - name: service-repo
+
+outputs:
+  - name: publish
 
 run:
   path: sh
