@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{E9882090-06B8-4E7A-9940-166B277B4C44}|Default">
   <MonoDevelop.Ide.ItemProperties.dotnet-core-helloWorld PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ci/pipeline.yml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ci/tasks/build.sh">
     <Files>
-      <File FileName="ci/pipeline.yml" Line="35" Column="14" />
-      <File FileName="ci/tasks/build.yml" Line="9" Column="31" />
+      <File FileName="ci/pipeline.yml" Line="9" Column="21" />
+      <File FileName="ci/tasks/build.yml" Line="7" Column="5" />
       <File FileName=".gitignore" Line="2" Column="6" />
       <File FileName="README.md" Line="68" Column="1" />
+      <File FileName="ci/tasks/build.sh" Line="2" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
