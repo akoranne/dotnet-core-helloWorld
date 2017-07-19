@@ -24,12 +24,14 @@ resources:
 
 jobs:
 - name: build-service
+  public: true
+  serial: true
   plan:
   - get: service-repo
     trigger: true
-  - task: tests
+  - task: build-and-pkg
     file: service-repo/ci/tasks/build.yml
   - put: deploy-dev-env
     params:
       manifest: service-repo/manifest.yml
-      path: service-repo/publish/
+      path: publish/
