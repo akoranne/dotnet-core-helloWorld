@@ -1,8 +1,8 @@
-name: .NET
+name: Dotnet Windows Application
 
 on:
   push:
-    branches: [ master ]
+    branches: [ feature* ]
   pull_request:
     branches: [ master ]
 
