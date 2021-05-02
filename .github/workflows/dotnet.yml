@@ -3,6 +3,10 @@ name: Dotnet Windows Application
 on:
   push:
     branches: [ feature* ]
+#     paths:
+    paths-ignore:
+      - .github/**
+    
   pull_request:
     branches: [ master ]
 
