@@ -1,6 +1,6 @@
 # .Net Core Hello World 
 
-This project is a sample .Net Core app. It highlights the following...
+Testing GIT This project is a sample .Net Core app. It highlights the following...
 
 * c# example
 * manifest file to deploy to pcf
